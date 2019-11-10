@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/P5quotemeta.svg?branch=master)](https://travis-ci.org/lizmat/P5quotemeta)
-
 NAME
 ====
 
-P5quotemeta - Implement Perl 5's quotemeta() built-in
+P5quotemeta - Implement Perl's quotemeta() built-in
 
 SYNOPSIS
 ========
@@ -19,7 +17,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module tries to mimic the behaviour of the `quotemeta` function ofi Perl 5 as closely as possible.
+This module tries to mimic the behaviour of the `quotemeta` function ofi Perl as closely as possible.
 
 ORIGINAL PERL 5 DOCUMENTATION
 =============================
@@ -130,7 +128,7 @@ Source can be located at: https://github.com/lizmat/P5quotemeta . Comments and P
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 Stolen from Zoffix Znet's unpublished String::Quotemeta, as found at:
 

@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module P5quotemeta:ver<0.0.3>:auth<cpan:ELIZABETH>;
+unit module P5quotemeta:ver<0.0.4>:auth<cpan:ELIZABETH>;
 
 proto sub quotemeta(|) is export {*}
 multi sub quotemeta(--> Str:D) { quotemeta CALLERS::<$_> }
@@ -55,7 +55,7 @@ multi sub quotemeta(Str() $string --> Str:D) {
 
 =head1 NAME
 
-P5quotemeta - Implement Perl 5's quotemeta() built-in
+P5quotemeta - Implement Perl's quotemeta() built-in
 
 =head1 SYNOPSIS
 
@@ -70,7 +70,7 @@ P5quotemeta - Implement Perl 5's quotemeta() built-in
 =head1 DESCRIPTION
 
 This module tries to mimic the behaviour of the C<quotemeta> function ofi
-Perl 5 as closely as possible.
+Perl as closely as possible.
 
 =head1 ORIGINAL PERL 5 DOCUMENTATION
 
@@ -179,7 +179,7 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 Stolen from Zoffix Znet's unpublished String::Quotemeta, as found at:
 
