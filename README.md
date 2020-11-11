@@ -1,7 +1,7 @@
 NAME
 ====
 
-P5quotemeta - Implement Perl's quotemeta() built-in
+Raku port of Perl's quotemeta() built-in
 
 SYNOPSIS
 ========
@@ -17,7 +17,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module tries to mimic the behaviour of the `quotemeta` function ofi Perl as closely as possible.
+This module tries to mimic the behaviour of Perl's `quotemeta` function in Raku as closely as possible.
 
 ORIGINAL PERL 5 DOCUMENTATION
 =============================
@@ -128,7 +128,7 @@ Source can be located at: https://github.com/lizmat/P5quotemeta . Comments and P
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 Stolen from Zoffix Znet's unpublished String::Quotemeta, as found at:
 
