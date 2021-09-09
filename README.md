@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/P5quotemeta/workflows/test/badge.svg)](https://github.com/lizmat/P5quotemeta/actions)
+
 NAME
 ====
 
@@ -121,14 +123,14 @@ ORIGINAL PERL 5 DOCUMENTATION
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/P5quotemeta . Comments and Pull Requests are welcome.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021Elizabeth Mattijsen
 
 Stolen from Zoffix Znet's unpublished String::Quotemeta, as found at:
 

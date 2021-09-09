@@ -1,6 +1,6 @@
-use v6.c;
+use v6.d;
 
-unit module P5quotemeta:ver<0.0.5>:auth<cpan:ELIZABETH>;
+unit module P5quotemeta:ver<0.0.6>:auth<zef:lizmat>;
 
 proto sub quotemeta(|) is export {*}
 multi sub quotemeta(--> Str:D) { quotemeta CALLERS::<$_> }
@@ -172,14 +172,14 @@ Raku as closely as possible.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/P5quotemeta . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021Elizabeth Mattijsen
 
 Stolen from Zoffix Znet's unpublished String::Quotemeta, as found at:
 

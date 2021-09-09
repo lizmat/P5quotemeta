@@ -2,6 +2,12 @@ Revision history for P5quotemeta
 
 {{$NEXT}}
 
+0.0.6  2021-09-09T13:21:45+02:00
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+    - Update copyright year
+
 0.0.5  2020-11-11T14:03:04+01:00
     - Changed name of module
     - Added some comments, updated copyright year
