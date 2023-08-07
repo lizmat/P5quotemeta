@@ -10,7 +10,7 @@
   "description": "Raku port of Perl's quotemeta() built-in",
   "license": "Artistic-2.0",
   "name": "P5quotemeta",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
     "P5quotemeta": "lib/P5quotemeta.rakumod"
   },
@@ -23,5 +23,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
